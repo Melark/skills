@@ -12,6 +12,9 @@ Call the Skill tool with "tdd" where possible, at pre-agreed seams.
 
 Run typechecking regularly, single test files regularly, and the full test suite once at the end.
 
-Once done, call the Skill tool with "code-review" to review the work.
+Once done, call the Skill tool with "code-review-two-axis" to review the work.
+(Claude Code ships a built-in `/code-review` that hunts correctness bugs and
+verifies its own findings. The two are complementary, not alternatives: run
+that one too when the change carries real risk.)
 
 Commit your work to the current branch.
